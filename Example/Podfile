@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MBVerifyButton_Tests' do
+  pod 'MBVerifyButton', :path => '../'
+  
+  
+end
