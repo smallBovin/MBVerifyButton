@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F0B1B146745E3E434618B322235568 /* Pods-MBVerifyButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC4B81A34C4B4D0E848AD56F6E2C8B /* Pods-MBVerifyButton_Tests-dummy.m */; };
+		4AF3E8CC99AF4D1D6B08C486FF561DEF /* Pods-MBVerifyButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F77512B19077F8AC53DB0433E69F2A6 /* Pods-MBVerifyButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA54040D7F087E46115C3D39B00FC42 /* MBVerifyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 445ABF13C7F052A72CCC407B05DB18E0 /* MBVerifyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A60A4238A59A0B40A7BDEA7939BC2C1 /* MBVerigiyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5DED5F66CE0D37DE1BDACF423FBAD4 /* MBVerigiyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A742172A29E48F327D46CA7820387D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C7CFFCBCAE3A09600E2A93346DD05ADE /* MBVerigiyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 397081A26853307F190E041BACB799A5 /* MBVerigiyButton.m */; };
+		D159025BA6BA47C9338FF110746CCEE3 /* MBVerifyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6973F45CECABB6A3A6359829F875F8D6 /* MBVerifyButton-dummy.m */; };
+		E7DAC2F468EC9705BB0114CEA5525823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B70075A2A8C4F39701DB9FD3FAC673A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691D893EEEFB2ECAA18D68501DC35091;
+			remoteInfo = MBVerifyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2AFEC4BD38E70D3D18BEA7ABE4A1DB /* Pods-MBVerifyButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBVerifyButton_Tests.modulemap"; sourceTree = "<group>"; };
+		0A5DED5F66CE0D37DE1BDACF423FBAD4 /* MBVerigiyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBVerigiyButton.h; path = MBVerifyButton/Classes/MBVerigiyButton.h; sourceTree = "<group>"; };
+		2A240D8A6B7EADF01DD24ED793B3600A /* Pods_MBVerifyButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBVerifyButton_Tests.framework; path = "Pods-MBVerifyButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		397081A26853307F190E041BACB799A5 /* MBVerigiyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBVerigiyButton.m; path = MBVerifyButton/Classes/MBVerigiyButton.m; sourceTree = "<group>"; };
+		3A6198C7E73298832D94CB597F8C8A9F /* Pods-MBVerifyButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBVerifyButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		445ABF13C7F052A72CCC407B05DB18E0 /* MBVerifyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBVerifyButton-umbrella.h"; sourceTree = "<group>"; };
+		4C1DE27F32CF4D42DB3D04375D7E4411 /* MBVerifyButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MBVerifyButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		542C7667AC4428CF5335928526B2FBC9 /* Pods-MBVerifyButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBVerifyButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BEC4B81A34C4B4D0E848AD56F6E2C8B /* Pods-MBVerifyButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBVerifyButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		6973F45CECABB6A3A6359829F875F8D6 /* MBVerifyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBVerifyButton-dummy.m"; sourceTree = "<group>"; };
+		6D0CE9AE402736776DFBDBC37A37E321 /* Pods-MBVerifyButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBVerifyButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		74F62313636E767DDC7A9CD594A6BAB0 /* Pods-MBVerifyButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBVerifyButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A89054B4F31200C167A100ACD10E9D6 /* MBVerifyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBVerifyButton.framework; path = MBVerifyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9116509D3AA3DE953927B22183F7CBAC /* MBVerifyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBVerifyButton.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F77512B19077F8AC53DB0433E69F2A6 /* Pods-MBVerifyButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBVerifyButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AC2BD206B1B687ED606EDDC7AED6DD72 /* Pods-MBVerifyButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBVerifyButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACAFCB79229579114A558EFF010E3F20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB91196B4080980EB1945BB438980F5C /* Pods-MBVerifyButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBVerifyButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E28F6CCA218037AD39CEE5C131E226CA /* MBVerifyButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBVerifyButton-Info.plist"; sourceTree = "<group>"; };
+		E9B99BDCE4E8457D37462EDBD08B4479 /* MBVerifyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBVerifyButton-prefix.pch"; sourceTree = "<group>"; };
+		F245F888192CACE3F8D81256A2D80D91 /* MBVerifyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBVerifyButton.modulemap; sourceTree = "<group>"; };
+		FD86CE3FD75822EB373BF63EA7211A80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E6692E3A7EE1DD33DB313DD3D489EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A742172A29E48F327D46CA7820387D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873D3E43D11D48C617DC5077483DA7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DAC2F468EC9705BB0114CEA5525823 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1839CC1DE89543B2AED65A691AF97F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A89054B4F31200C167A100ACD10E9D6 /* MBVerifyButton.framework */,
+				2A240D8A6B7EADF01DD24ED793B3600A /* Pods_MBVerifyButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448A58E07E5BF55B85EF7A88769600D3 /* MBVerifyButton */ = {
+			isa = PBXGroup;
+			children = (
+				0A5DED5F66CE0D37DE1BDACF423FBAD4 /* MBVerigiyButton.h */,
+				397081A26853307F190E041BACB799A5 /* MBVerigiyButton.m */,
+				D8A662594FD6CF1A54EC75075B05ECD6 /* Pod */,
+				7D357087E37912EC72193AD948887B3C /* Support Files */,
+			);
+			name = MBVerifyButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7D357087E37912EC72193AD948887B3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F245F888192CACE3F8D81256A2D80D91 /* MBVerifyButton.modulemap */,
+				9116509D3AA3DE953927B22183F7CBAC /* MBVerifyButton.xcconfig */,
+				6973F45CECABB6A3A6359829F875F8D6 /* MBVerifyButton-dummy.m */,
+				E28F6CCA218037AD39CEE5C131E226CA /* MBVerifyButton-Info.plist */,
+				E9B99BDCE4E8457D37462EDBD08B4479 /* MBVerifyButton-prefix.pch */,
+				445ABF13C7F052A72CCC407B05DB18E0 /* MBVerifyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MBVerifyButton";
+			sourceTree = "<group>";
+		};
+		985D10A4698E718F8EC67BF20264FD84 /* Pods-MBVerifyButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A2AFEC4BD38E70D3D18BEA7ABE4A1DB /* Pods-MBVerifyButton_Tests.modulemap */,
+				AC2BD206B1B687ED606EDDC7AED6DD72 /* Pods-MBVerifyButton_Tests-acknowledgements.markdown */,
+				542C7667AC4428CF5335928526B2FBC9 /* Pods-MBVerifyButton_Tests-acknowledgements.plist */,
+				5BEC4B81A34C4B4D0E848AD56F6E2C8B /* Pods-MBVerifyButton_Tests-dummy.m */,
+				74F62313636E767DDC7A9CD594A6BAB0 /* Pods-MBVerifyButton_Tests-frameworks.sh */,
+				6D0CE9AE402736776DFBDBC37A37E321 /* Pods-MBVerifyButton_Tests-Info.plist */,
+				9F77512B19077F8AC53DB0433E69F2A6 /* Pods-MBVerifyButton_Tests-umbrella.h */,
+				BB91196B4080980EB1945BB438980F5C /* Pods-MBVerifyButton_Tests.debug.xcconfig */,
+				3A6198C7E73298832D94CB597F8C8A9F /* Pods-MBVerifyButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-MBVerifyButton_Tests";
+			path = "Target Support Files/Pods-MBVerifyButton_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC98D8B4D05C4CF5CBA46F760D997097 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				985D10A4698E718F8EC67BF20264FD84 /* Pods-MBVerifyButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E211CBE52DBD66FB12DD43F1EF40C57A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1839CC1DE89543B2AED65A691AF97F11 /* Products */,
+				CC98D8B4D05C4CF5CBA46F760D997097 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A662594FD6CF1A54EC75075B05ECD6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD86CE3FD75822EB373BF63EA7211A80 /* LICENSE */,
+				4C1DE27F32CF4D42DB3D04375D7E4411 /* MBVerifyButton.podspec */,
+				ACAFCB79229579114A558EFF010E3F20 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E211CBE52DBD66FB12DD43F1EF40C57A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				448A58E07E5BF55B85EF7A88769600D3 /* MBVerifyButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B6799B60931F853AC1B0720E3B94507 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA54040D7F087E46115C3D39B00FC42 /* MBVerifyButton-umbrella.h in Headers */,
+				7A60A4238A59A0B40A7BDEA7939BC2C1 /* MBVerigiyButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0555849C07D522BB74AF6EB96B167F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF3E8CC99AF4D1D6B08C486FF561DEF /* Pods-MBVerifyButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4802FBA4FE4F31AF31BA2B871B6D06F0 /* Pods-MBVerifyButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C297188E1C720C1BFCBB4E085729D6AD /* Build configuration list for PBXNativeTarget "Pods-MBVerifyButton_Tests" */;
+			buildPhases = (
+				A0555849C07D522BB74AF6EB96B167F1 /* Headers */,
+				6C344A7A661AF4DB1916996535EF9B8D /* Sources */,
+				60E6692E3A7EE1DD33DB313DD3D489EB /* Frameworks */,
+				3C533EE34D4BD9D943F8AF658FD7F3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C086858F04F22BE5EA69EDF2307C882 /* PBXTargetDependency */,
+			);
+			name = "Pods-MBVerifyButton_Tests";
+			productName = "Pods-MBVerifyButton_Tests";
+			productReference = 2A240D8A6B7EADF01DD24ED793B3600A /* Pods_MBVerifyButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		691D893EEEFB2ECAA18D68501DC35091 /* MBVerifyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6EC0643CC5C424EC0F57464ED04E9E /* Build configuration list for PBXNativeTarget "MBVerifyButton" */;
+			buildPhases = (
+				4B6799B60931F853AC1B0720E3B94507 /* Headers */,
+				7675B30CFA5F31B5911301926FFE5475 /* Sources */,
+				873D3E43D11D48C617DC5077483DA7CC /* Frameworks */,
+				D4CC46E9CB490194C3B4AEC9AA82E74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBVerifyButton;
+			productName = MBVerifyButton;
+			productReference = 8A89054B4F31200C167A100ACD10E9D6 /* MBVerifyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1839CC1DE89543B2AED65A691AF97F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691D893EEEFB2ECAA18D68501DC35091 /* MBVerifyButton */,
+				4802FBA4FE4F31AF31BA2B871B6D06F0 /* Pods-MBVerifyButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C533EE34D4BD9D943F8AF658FD7F3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CC46E9CB490194C3B4AEC9AA82E74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C344A7A661AF4DB1916996535EF9B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F0B1B146745E3E434618B322235568 /* Pods-MBVerifyButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7675B30CFA5F31B5911301926FFE5475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D159025BA6BA47C9338FF110746CCEE3 /* MBVerifyButton-dummy.m in Sources */,
+				C7CFFCBCAE3A09600E2A93346DD05ADE /* MBVerigiyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C086858F04F22BE5EA69EDF2307C882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBVerifyButton;
+			target = 691D893EEEFB2ECAA18D68501DC35091 /* MBVerifyButton */;
+			targetProxy = 2B70075A2A8C4F39701DB9FD3FAC673A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C25D80A4F9C800DC76957097EC1F019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9116509D3AA3DE953927B22183F7CBAC /* MBVerifyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBVerifyButton/MBVerifyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBVerifyButton/MBVerifyButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBVerifyButton/MBVerifyButton.modulemap";
+				PRODUCT_MODULE_NAME = MBVerifyButton;
+				PRODUCT_NAME = MBVerifyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55F82024B32988534A35DCF3C962F516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9116509D3AA3DE953927B22183F7CBAC /* MBVerifyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBVerifyButton/MBVerifyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBVerifyButton/MBVerifyButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBVerifyButton/MBVerifyButton.modulemap";
+				PRODUCT_MODULE_NAME = MBVerifyButton;
+				PRODUCT_NAME = MBVerifyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A9E31B54D1896B36D81D86B191EEB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB91196B4080980EB1945BB438980F5C /* Pods-MBVerifyButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBVerifyButton_Tests/Pods-MBVerifyButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBVerifyButton_Tests/Pods-MBVerifyButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA1D47E8DE9BE20656DFE461624F1C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6198C7E73298832D94CB597F8C8A9F /* Pods-MBVerifyButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MBVerifyButton_Tests/Pods-MBVerifyButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBVerifyButton_Tests/Pods-MBVerifyButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C297188E1C720C1BFCBB4E085729D6AD /* Build configuration list for PBXNativeTarget "Pods-MBVerifyButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9E31B54D1896B36D81D86B191EEB6E /* Debug */,
+				CA1D47E8DE9BE20656DFE461624F1C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6EC0643CC5C424EC0F57464ED04E9E /* Build configuration list for PBXNativeTarget "MBVerifyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C25D80A4F9C800DC76957097EC1F019 /* Debug */,
+				55F82024B32988534A35DCF3C962F516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

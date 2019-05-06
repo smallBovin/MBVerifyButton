@@ -1,0 +1,16 @@
+PODS:
+  - MBVerifyButton (1.0.0)
+
+DEPENDENCIES:
+  - MBVerifyButton (from `../`)
+
+EXTERNAL SOURCES:
+  MBVerifyButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBVerifyButton: 78225202b34d30ed0714f389f19a100b878eaa9a
+
+PODFILE CHECKSUM: ab54365d36ae8ee74ad8d44ef73585f70ca2cc13
+
+COCOAPODS: 1.6.1

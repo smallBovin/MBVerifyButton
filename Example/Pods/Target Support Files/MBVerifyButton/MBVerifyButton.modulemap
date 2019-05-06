@@ -1,0 +1,6 @@
+framework module MBVerifyButton {
+  umbrella header "MBVerifyButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

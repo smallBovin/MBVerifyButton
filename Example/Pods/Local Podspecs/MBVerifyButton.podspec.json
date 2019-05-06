@@ -1,0 +1,22 @@
+{
+  "name": "MBVerifyButton",
+  "version": "1.0.0",
+  "summary": "快速创建验证按钮",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/smallBovin/MBVerifyButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "smallBovin": "bovin150@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/smallBovin/MBVerifyButton.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MBVerifyButton/Classes/**/*"
+}
